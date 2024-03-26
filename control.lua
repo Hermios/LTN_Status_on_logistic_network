@@ -72,4 +72,3 @@ local function register_all_events()
 end
 table.insert(list_events.on_init,register_all_events)
 table.insert(list_events.on_load,register_all_events)
-
